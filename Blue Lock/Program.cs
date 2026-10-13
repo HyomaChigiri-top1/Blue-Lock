@@ -344,7 +344,7 @@
 
 //практика 4
 
-// v0.1
+//v0.1
 
 using System;
 using System.Collections.Generic;
