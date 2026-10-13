@@ -384,6 +384,7 @@ namespace BlueLock
             // перемещение игрока
             Console.Write("Введите направление движения: ");
             var key = Console.ReadKey();
+            // перемещаем игрока направо
             if (key.Key == ConsoleKey.D)
             {
                 Console.SetCursorPosition(posX, posY);
@@ -396,6 +397,7 @@ namespace BlueLock
                 Console.ResetColor();
                 Console.SetCursorPosition(0, 5);
             }
+            // перемещаем игрока налево
             if (key.Key == ConsoleKey.A)
             {
                 Console.SetCursorPosition(posX, posY);
